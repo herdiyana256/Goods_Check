@@ -1,55 +1,51 @@
-
-
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Pharmaceutical Inventory System for Regis Pharmacy</title>
-	
-    
-        <link rel="stylesheet" href="assets/css/style.css">
+<html>
 
-    
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Stock Management</title>
 
-  <body style="background: #262626;">
-  <br/>
-  <br/>    
-    
-  
 
-    <div class="container">
+  <link rel="stylesheet" href="assets/css/style.css">
 
-  <div id="login-form">
 
-    <h3>User Login</h3>
+</head>
 
-    <fieldset>
+<body style="background: #262626;">
+  <br />
+  <br />
 
-      <form id="form-login">
-        <input type="text" autofocus id="un" placeholder="Username" required autocomplete="off"> 
 
-        <input type="password" id="up" placeholder="Password" required autocomplete="off">  
 
-        <input type="submit" name="log" value="Login">
-      </form>
+  <div class="container">
 
-    </fieldset>
+    <div id="login-form">
 
-  </div> <!-- end login-form -->
+      <h3>User Login</h3>
 
-</div>
-    
-    
-    
-<script type="text/javascript" src="assets/js/jquery-1.12.3.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/regis.js"></script>
+      <fieldset>
 
-    
-  </body>
+        <form id="form-login">
+          <input type="text" autofocus id="un" placeholder="Username" required autocomplete="off">
+
+          <input type="password" id="up" placeholder="Password" required autocomplete="off">
+
+          <input type="submit" name="log" value="Login">
+        </form>
+
+      </fieldset>
+
+    </div> <!-- end login-form -->
+
+  </div>
+
+
+
+  <script type="text/javascript" src="assets/js/jquery-1.12.3.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/regis.js"></script>
+
+
+</body>
+
 </html>
-
-
-
- 
